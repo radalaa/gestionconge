@@ -22,6 +22,8 @@ class Page extends ApplicationComponent
     {
       throw new \RuntimeException('La vue spécifiée n\'existe pas');
     }
+    //$user fait reference a l'instance de user
+    $user = $this->app->user();
 
     extract($this->vars);
 
