@@ -1,7 +1,7 @@
 <?php
 namespace RADFram;
 
-class HTTPResponse
+class HTTPResponse extends ApplicationComponent
 {
   protected $page;
 

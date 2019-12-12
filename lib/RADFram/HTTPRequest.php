@@ -1,7 +1,7 @@
 <?php
 namespace RADFram;
 
-class HTTPRequest
+class HTTPRequest extends ApplicationComponent
 {
   public function cookieData($key)
   {
